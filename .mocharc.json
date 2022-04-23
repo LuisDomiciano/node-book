@@ -1,0 +1,8 @@
+{
+  "require": [
+    "@babel/register",
+    "test/integration/helpers.js"
+  ],
+  "reporter": "spec",
+  "slow": 5000
+}
