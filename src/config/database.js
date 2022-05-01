@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 import "dotenv/config";
-// const mongodbUrl = process.env.MONGODB_URL || "mongodb://localhost/test";
+
 const mongodbUrl = process.env.DB_URI;
 
 const config = {
